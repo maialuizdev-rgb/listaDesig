@@ -1,0 +1,74 @@
+/* src/components/IndicatorsTable/IndicatorsTable.module.css */
+.controls {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #2980b9;
+}
+
+.btnSuccess {
+  background: #27ae60;
+}
+
+.btnSuccess:hover {
+  background: #219653;
+}
+
+.monthHeader {
+  background: #3498db;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #2c3e50;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.table tr:hover {
+  background-color: #f1f2f6;
+}
+
+@media (max-width: 768px) {
+  .table {
+    display: block;
+    overflow-x: auto;
+  }
+}

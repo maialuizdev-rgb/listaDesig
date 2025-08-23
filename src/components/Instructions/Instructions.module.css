@@ -1,0 +1,8 @@
+/* src/components/Instructions/Instructions.module.css */
+.instructions {
+  background: #e8f4fc;
+  padding: 15px 20px;
+  border-left: 5px solid #3498db;
+  margin: 20px;
+  border-radius: 5px;
+}

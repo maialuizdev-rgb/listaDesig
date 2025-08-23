@@ -1,0 +1,17 @@
+/* src/components/Header/Header.module.css */
+.header {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.subtitle {
+  font-style: italic;
+  opacity: 0.8;
+}

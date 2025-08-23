@@ -1,0 +1,39 @@
+/* src/components/Tabs/Tabs.module.css */
+.tabs {
+  display: flex;
+  background: #f1f2f6;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  padding: 15px 25px;
+  cursor: pointer;
+  background: #dfe4ea;
+  border-right: 1px solid #ddd;
+  transition: all 0.3s;
+}
+
+.tab.active {
+  background: #fff;
+  border-bottom: 3px solid #3498db;
+  font-weight: bold;
+}
+
+.tab:hover {
+  background: #dff9fb;
+}
+
+.tabContent {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+  }
+  
+  .tab {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
