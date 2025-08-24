@@ -1,8 +1,14 @@
 /* src/components/Instructions/Instructions.module.css */
 .instructions {
-  background: #e8f4fc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
   padding: 15px 20px;
-  border-left: 5px solid #3498db;
-  margin: 20px;
-  border-radius: 5px;
+  margin: 40px 80px 20px 80px;
 }
+
+.btnActions {
+  display: flex;
+  gap: 8px;
+};

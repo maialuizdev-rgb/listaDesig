@@ -1,14 +1,20 @@
 /* src/components/Header/Header.module.css */
 .header {
-  background: #2c3e50;
-  color: white;
+  background: #fff;
+  border-bottom: 1px solid #C4C4C4;
   padding: 20px;
-  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabs {
+  display: flex;
+  gap: 12px;
 }
 
-.header h1 {
-  margin-bottom: 10px;
-  font-size: 28px;
+.perfil, .tabs{
+  margin: 0 80px;
 }
 
 .subtitle {

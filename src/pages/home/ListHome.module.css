@@ -1,8 +1,10 @@
-@import "tailwindcss";
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #E4E4E4;
 }
